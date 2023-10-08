@@ -1,5 +1,7 @@
 [build]
-publish="dist"
+publish = "dist"
+
+
 [[redirects]]    
     from = "*"
     to = "https://cornishlocals.com/about/:splat"
