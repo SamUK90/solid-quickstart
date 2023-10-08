@@ -4,7 +4,7 @@
   publish = "netlify"
 [[redirects]]    
     from = "*"
-    to = "https://vapemealone.com/:splat"
+    to = "https://cornishlocals.com/about/:splat"
     status = 200
     force = true
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
