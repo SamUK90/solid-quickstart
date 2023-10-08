@@ -2,10 +2,9 @@
   command = "solid-start build"
   functions = "netlify/functions"
   publish = "netlify"
-[[redirects]]
-  from = "/*"
-  to = "https://app.posthog.com/:splat"
-  host = "app.posthog.com"
-  status = 200
-  force = true
+[[redirects]]    
+    from = "*"
+    to = "https://vapemealone.com"
+    status = 200
+    force = true
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
