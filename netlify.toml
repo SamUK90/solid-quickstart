@@ -3,7 +3,7 @@
   functions = "netlify/functions"
   publish = "netlify"
 [[redirects]]
-  from = "/ingest/*"
+  from = "/*"
   to = "https://app.posthog.com/:splat"
   host = "app.posthog.com"
   status = 200
